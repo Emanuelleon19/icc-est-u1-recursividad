@@ -9,5 +9,10 @@ public class App {
         System.out.println(rec.potencia(3, 3));
 
         System.out.println(rec.sumaDigitos(456));
+
+        System.out.println(rec.Fibonacci(8));
+
+        RenombrarDirectorios rd = new RenombrarDirectorios();
+        rd.RenombrarDirectorios("src/directorios");
     }
 }

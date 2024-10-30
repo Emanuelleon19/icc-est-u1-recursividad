@@ -43,4 +43,12 @@ public class Recursividad {
         }
         return (n%10) + sumaDigitos(n/10);
     }
+    public int Fibonacci(int n){
+        // caso base los 2 primeros numeros son 0 y 1
+        if(n == 0)return 0;
+        if(n == 1)return 1;
+
+        return Fibonacci(n-1) + Fibonacci(n-2);
+    }
+    
 }
